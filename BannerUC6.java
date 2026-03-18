@@ -1,6 +1,5 @@
 public class BannerUC6 {
 
-    // Method to build pattern for O
     static String getOPattern(int line) {
         String[] O = {
                 "  *****  ",
@@ -14,7 +13,6 @@ public class BannerUC6 {
         return O[line];
     }
 
-    // Method to build pattern for P
     static String getPPattern(int line) {
         String[] P = {
                 " ******  ",
@@ -28,7 +26,6 @@ public class BannerUC6 {
         return P[line];
     }
 
-    // Method to build pattern for S
     static String getSPattern(int line) {
         String[] S = {
                 "  *****  ",
